@@ -1,0 +1,83 @@
+.mainWrapper {
+  z-index: 0;
+  opacity: 8%;
+  height: 80vh;
+  width: 80vw;
+  border-radius: 20px;
+  border: 4px solid black;
+}
+.mainWrapper.consent {
+  z-index: 0;
+  opacity: 100%;
+  height: 80vh;
+  width: 80vw;
+  border-radius: 20px;
+  border: 4px solid black;
+}
+.placeholderText {
+  opacity: 99%;
+  padding: 50px;
+  color: black;
+}
+.placeholderText.consent {
+  padding: 50px;
+  color: black;
+  opacity: 100%;
+}
+.box {
+  opacity: 90%;
+  height: 40vh;
+  width: 20vw;
+  border: 2px solid black;
+  background-color: black;
+  border-radius: 10px;
+}
+.box.consent {
+  opacity: 100%;
+  height: 40vh;
+  width: 20vw;
+  background-color: black;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.popUpWrapper.clicked {
+  display: none;
+}
+.popUpWrapper {
+  display: block;
+  z-index: 9;
+  position: absolute;
+  top: 50%;
+  right: 25%;
+  height: 20vh;
+  width: 20vw;
+  background-color: black;
+  border-radius: 10px;
+  border: 2px solid red;
+}
+.but {
+  height: 5vh;
+  width: 15vw;
+  border-radius: 10px;
+  position: absolute;
+  left: 15%;
+  top: 50%;
+}
+.butX {
+  position: absolute;
+  top: 2%;
+  right: 1%;
+  border-radius: 3px;
+}
+.text {
+  color: white;
+  position: absolute;
+  left: 25%;
+  top: 10%;
+}
+
+@media (width <= 768px) {
+  .mainwrapper {
+    display: flex;
+  }
+}
